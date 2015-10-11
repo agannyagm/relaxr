@@ -1,0 +1,254 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+    -moz-box-sizing: border-box; /* Firexfox */
+    -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+    box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.alignright {
+    float: right;
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left;
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    font-size: 14px;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+    /*background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);*/
+    background-size: cover;
+    width: 100%;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+/*#container {
+    width: 100%;
+    margin: auto;
+    height: 700px;
+}*/
+
+
+header div, section, footer, nav, article
+{
+	box-sizing:border-box;
+}
+
+header {
+    height: 400px;
+    background-image: url(../images/header_bg.jpg);
+    background-size: 100% 100%;
+}
+
+h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: white;
+    margin-left: 20px;
+    padding:30px 0px 20px 30px;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 48px;   
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+header div {
+    margin: 0 auto;
+    width: 240px;
+    height: 45px;
+    background-color: #f9e42e;
+    border-radius: 5px;
+}
+
+header div a {
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+    display: block;
+    padding: 5px 10px;
+}
+
+.section1 {
+    background-color:#f0efef;
+    height: 300px;
+}
+
+.section1 h3 {
+        font-weight: bold;
+        font-size: 40px;
+        padding: 30px 0px 10px 80px;
+        color:#033048;
+    }
+
+.section1 p {
+        font-weight: lighter;
+        font-size: 100%;
+        padding-left: 80px;
+        padding: 0px 900px 10px 90px;
+        font-family: tahoma;
+        color:#606161;
+    }
+
+.section1 ul {
+        font-weight: lighter;
+        font-size: 100%;
+        padding: 4px 900px 0px 130px;
+        list-style-type: disc;
+        font-family: tahoma;
+        color:#606161;
+    }
+
+.section2 {
+    height: 220px;
+    background-image: url(../images/testimonial_bg.jpg);
+    background-size: 100% 100%;
+}
+
+blockquote {
+    
+    padding: 40px 400px 5px 500px;
+    text-align: center;
+    
+}
+
+blockquote p {
+        font-weight: lighter;
+        font-style: italic;
+        color: white;
+        font-size:18px;
+        font-family:Tahoma;
+    }
+
+.section2 span {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    padding-left: 580px;
+    margin: 0 auto;
+
+}
+
+.section3 {
+    background-color: #f9e42e; 
+    height: 90px;
+    padding:19px 0px;
+}
+
+.section3 div {
+        margin: 0 auto;
+        width: 250px;
+        height: 50px;
+        background-color: #033048;
+        border-radius: 5px;
+        position: relative;
+    }
+
+.section3 a {
+        font-size: 24px;
+        text-align: center;
+        font-weight: bolder;
+        display: block;
+        margin: 0 auto;
+        color: white;
+        padding:8px 4px;
+    }
+
+footer {
+    background-color: #121212;
+    height: 200px;
+}
+
+footer h3 {
+        font-weight: bolder;
+        font-size: 48px;
+        color: yellow;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+footer ul {
+        margin: 0 auto;
+        width: 80px;
+        height: 50px;
+     
+    }
+
+footer li {
+        display: inline;
+        float: left;
+        padding-top: 20px;
+    }
+footer li:first-child {
+        padding-right: 35px;
+    }
+
+#img1 {
+    width: 25px;
+    height: 30px;
+}
+
+#img2 {
+    width: 15px;
+    height: 30px;
+}
+
+label {
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    display: block;
+    padding-top: 30px;
+    padding-bottom:0px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
