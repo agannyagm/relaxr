@@ -80,7 +80,7 @@ header {
 }
 
 h1 {
-    font-weight: bolder;
+    font-weight: 800;
     font-size: 48px;
     color: white;
     margin-left: 20px;
@@ -88,7 +88,7 @@ h1 {
 }
 
 h2 {
-    font-weight: normal;
+    font-weight: 600;
     font-size: 48px;   
     color: white;
     text-align: center;
@@ -106,9 +106,9 @@ header div {
 header div a {
     font-size: 28px;
     text-align: center;
-    font-weight: bolder;
+    font-weight: 800;
     display: block;
-    padding: 5px 10px;
+    padding: 4px 10px;
 }
 
 .section1 {
@@ -117,14 +117,14 @@ header div a {
 }
 
 .section1 h3 {
-        font-weight: bold;
+        font-weight: 600;
         font-size: 40px;
         padding: 30px 0px 10px 80px;
         color:#033048;
     }
 
 .section1 p {
-        font-weight: lighter;
+        font-weight: 300;
         font-size: 100%;
         padding-left: 80px;
         padding: 0px 900px 10px 90px;
@@ -133,7 +133,7 @@ header div a {
     }
 
 .section1 ul {
-        font-weight: lighter;
+        font-weight: 300;
         font-size: 100%;
         padding: 4px 900px 0px 130px;
         list-style-type: disc;
@@ -155,7 +155,7 @@ blockquote {
 }
 
 blockquote p {
-        font-weight: lighter;
+        font-weight: 300;
         font-style: italic;
         color: white;
         font-size:18px;
@@ -163,7 +163,7 @@ blockquote p {
     }
 
 .section2 span {
-    font-weight: bold;
+    font-weight: 600;
     font-size: 36px;
     color: white;
     padding-left: 580px;
@@ -189,7 +189,7 @@ blockquote p {
 .section3 a {
         font-size: 24px;
         text-align: center;
-        font-weight: bolder;
+        font-weight: 800;
         display: block;
         margin: 0 auto;
         color: white;
@@ -202,7 +202,7 @@ footer {
 }
 
 footer h3 {
-        font-weight: bolder;
+        font-weight: 800;
         font-size: 48px;
         color: yellow;
         text-align: center;
@@ -236,7 +236,7 @@ footer li:first-child {
 }
 
 label {
-    font-weight: normal;
+    font-weight: 600;
     font-size: 18px;
     color: white;
     text-align: center;
